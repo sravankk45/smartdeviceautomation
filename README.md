@@ -8,7 +8,7 @@
 * Disconnect the device
 * Connect the device
 
-### The below is test is implemented with steps
+### The below are the tests that implemented along with steps
 
 * Check list of devices (smartdevice.tests.listBulbsTest)
 	* get the devices list
