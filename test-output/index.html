@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Smart_Device_Automation_Tests" class="navigator-link">
+              <span class="suite-name border-passed">Smart Device Automation Tests</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Smart_Device_Automation_Tests" class="navigator-link ">
+                    <span>C:\Users\Srav1Ramya\eclipse-workspace\smartdeviceautomation\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Smart_Device_Automation_Tests" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Smart_Device_Automation_Tests" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Smart_Device_Automation_Tests" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Smart_Device_Automation_Tests" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Smart_Device_Automation_Tests" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Smart_Device_Automation_Tests" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">13 methods,   13 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Smart_Device_Automation_Tests" class="hide-methods passed suite-Smart_Device_Automation_Tests"> (hide)</a> <!-- hide-methods passed suite-Smart_Device_Automation_Tests -->
+                      <a href="#" panel-name="suite-Smart_Device_Automation_Tests" class="show-methods passed suite-Smart_Device_Automation_Tests"> (show)</a> <!-- show-methods passed suite-Smart_Device_Automation_Tests -->
+                    </span>
+                    <div class="method-list-content passed suite-Smart_Device_Automation_Tests">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Smart_Device_Automation_Tests" title="smartdevice.tests.BulbTests" class="method navigator-link" hash-for-method="brightnessConnectedTest">brightnessConnectedTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Smart_Device_Automation_Tests" title="smartdevice.tests.BulbTests" class="method navigator-link" hash-for-method="brightnessDisconnectedTest">brightnessDisconnectedTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Smart_Device_Automation_Tests" title="smartdevice.tests.BulbTests" class="method navigator-link" hash-for-method="colorConnectedTest">colorConnectedTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Smart_Device_Automation_Tests" title="smartdevice.tests.BulbTests" class="method navigator-link" hash-for-method="colorDisconnectedTest">colorDisconnectedTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Smart_Device_Automation_Tests" title="smartdevice.tests.BulbTests" class="method navigator-link" hash-for-method="deviceConnectInvalidTest">deviceConnectInvalidTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Smart_Device_Automation_Tests" title="smartdevice.tests.BulbTests" class="method navigator-link" hash-for-method="deviceConnectTest">deviceConnectTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Smart_Device_Automation_Tests" title="smartdevice.tests.BulbTests" class="method navigator-link" hash-for-method="invalidBrightnessTest">invalidBrightnessTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Smart_Device_Automation_Tests" title="smartdevice.tests.BulbTests" class="method navigator-link" hash-for-method="invalidcolorTest">invalidcolorTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Smart_Device_Automation_Tests" title="smartdevice.tests.BulbTests" class="method navigator-link" hash-for-method="listBulbsTest">listBulbsTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Smart_Device_Automation_Tests" title="smartdevice.tests.BulbTests" class="method navigator-link" hash-for-method="nameConnectedTest">nameConnectedTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Smart_Device_Automation_Tests" title="smartdevice.tests.BulbTests" class="method navigator-link" hash-for-method="nameDisconnectedTest">nameDisconnectedTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Smart_Device_Automation_Tests" title="smartdevice.tests.BulbTests" class="method navigator-link" hash-for-method="stateConnectedTest">stateConnectedTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Smart_Device_Automation_Tests" title="smartdevice.tests.BulbTests" class="method navigator-link" hash-for-method="stateDisconnectedTest">stateDisconnectedTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Smart_Device_Automation_Tests -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Smart_Device_Automation_Tests" class="panel Smart_Device_Automation_Tests">
+          <div class="suite-Smart_Device_Automation_Tests-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">smartdevice.tests.BulbTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="brightnessConnectedTest">
+                  </a> <!-- brightnessConnectedTest -->
+                  <span class="method-name">brightnessConnectedTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="brightnessDisconnectedTest">
+                  </a> <!-- brightnessDisconnectedTest -->
+                  <span class="method-name">brightnessDisconnectedTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="colorConnectedTest">
+                  </a> <!-- colorConnectedTest -->
+                  <span class="method-name">colorConnectedTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="colorDisconnectedTest">
+                  </a> <!-- colorDisconnectedTest -->
+                  <span class="method-name">colorDisconnectedTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deviceConnectInvalidTest">
+                  </a> <!-- deviceConnectInvalidTest -->
+                  <span class="method-name">deviceConnectInvalidTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deviceConnectTest">
+                  </a> <!-- deviceConnectTest -->
+                  <span class="method-name">deviceConnectTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="invalidBrightnessTest">
+                  </a> <!-- invalidBrightnessTest -->
+                  <span class="method-name">invalidBrightnessTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="invalidcolorTest">
+                  </a> <!-- invalidcolorTest -->
+                  <span class="method-name">invalidcolorTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="listBulbsTest">
+                  </a> <!-- listBulbsTest -->
+                  <span class="method-name">listBulbsTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="nameConnectedTest">
+                  </a> <!-- nameConnectedTest -->
+                  <span class="method-name">nameConnectedTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="nameDisconnectedTest">
+                  </a> <!-- nameDisconnectedTest -->
+                  <span class="method-name">nameDisconnectedTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="stateConnectedTest">
+                  </a> <!-- stateConnectedTest -->
+                  <span class="method-name">stateConnectedTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="stateDisconnectedTest">
+                  </a> <!-- stateDisconnectedTest -->
+                  <span class="method-name">stateDisconnectedTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Smart_Device_Automation_Tests-class-passed -->
+        </div> <!-- panel Smart_Device_Automation_Tests -->
+        <div panel-name="test-xml-Smart_Device_Automation_Tests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Srav1Ramya\eclipse-workspace\smartdeviceautomation\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Smart Device Automation Tests&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;smartdevice.reports.ExtentReportListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;smart device bulb automation tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;smartdevice.tests.BulbTests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- smart device bulb automation tests --&gt;
+&lt;/suite&gt; &lt;!-- Smart Device Automation Tests --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Smart_Device_Automation_Tests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Smart Device Automation Tests</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">smart device bulb automation tests (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Smart_Device_Automation_Tests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Smart Device Automation Tests</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Smart_Device_Automation_Tests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Smart Device Automation Tests</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Smart_Device_Automation_Tests');
+function tableData_Smart_Device_Automation_Tests() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(13);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'brightnessConnectedTest')
+data.setCell(0, 2, 'smartdevice.tests.BulbTests')
+data.setCell(0, 3, 249);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'listBulbsTest')
+data.setCell(1, 2, 'smartdevice.tests.BulbTests')
+data.setCell(1, 3, 173);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'invalidcolorTest')
+data.setCell(2, 2, 'smartdevice.tests.BulbTests')
+data.setCell(2, 3, 153);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'colorDisconnectedTest')
+data.setCell(3, 2, 'smartdevice.tests.BulbTests')
+data.setCell(3, 3, 147);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'brightnessDisconnectedTest')
+data.setCell(4, 2, 'smartdevice.tests.BulbTests')
+data.setCell(4, 3, 147);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'colorConnectedTest')
+data.setCell(5, 2, 'smartdevice.tests.BulbTests')
+data.setCell(5, 3, 140);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'nameConnectedTest')
+data.setCell(6, 2, 'smartdevice.tests.BulbTests')
+data.setCell(6, 3, 111);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'deviceConnectTest')
+data.setCell(7, 2, 'smartdevice.tests.BulbTests')
+data.setCell(7, 3, 96);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'stateDisconnectedTest')
+data.setCell(8, 2, 'smartdevice.tests.BulbTests')
+data.setCell(8, 3, 93);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'nameDisconnectedTest')
+data.setCell(9, 2, 'smartdevice.tests.BulbTests')
+data.setCell(9, 3, 86);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'deviceConnectInvalidTest')
+data.setCell(10, 2, 'smartdevice.tests.BulbTests')
+data.setCell(10, 3, 55);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'stateConnectedTest')
+data.setCell(11, 2, 'smartdevice.tests.BulbTests')
+data.setCell(11, 3, 54);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'invalidBrightnessTest')
+data.setCell(12, 2, 'smartdevice.tests.BulbTests')
+data.setCell(12, 3, 53);
+window.suiteTableData['Smart_Device_Automation_Tests']= { tableData: data, tableDiv: 'times-div-Smart_Device_Automation_Tests'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 seconds</span>
+              <div id="times-div-Smart_Device_Automation_Tests">
+              </div> <!-- times-div-Smart_Device_Automation_Tests -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Smart_Device_Automation_Tests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Smart Device Automation Tests</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Smart_Device_Automation_Tests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Smart_Device_Automation_Tests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">smartdevice.tests.BulbTests</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">configure</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-method before">
+                <span class="method-name">prepareDevice</span>
+                <span class="method-start">2071 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">brightnessConnectedTest</span>
+                <span class="method-start">5742 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">prepareDevice</span>
+                <span class="method-start">6001 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">brightnessDisconnectedTest</span>
+                <span class="method-start">6134 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">prepareDevice</span>
+                <span class="method-start">6285 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">colorConnectedTest</span>
+                <span class="method-start">6394 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">prepareDevice</span>
+                <span class="method-start">6536 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">colorDisconnectedTest</span>
+                <span class="method-start">6653 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">prepareDevice</span>
+                <span class="method-start">6803 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">deviceConnectInvalidTest</span>
+                <span class="method-start">6906 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">prepareDevice</span>
+                <span class="method-start">6963 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">deviceConnectTest</span>
+                <span class="method-start">7059 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">prepareDevice</span>
+                <span class="method-start">7159 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">invalidBrightnessTest</span>
+                <span class="method-start">7264 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">prepareDevice</span>
+                <span class="method-start">7320 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">invalidcolorTest</span>
+                <span class="method-start">7412 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">prepareDevice</span>
+                <span class="method-start">7567 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">listBulbsTest</span>
+                <span class="method-start">7660 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">prepareDevice</span>
+                <span class="method-start">7835 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">nameConnectedTest</span>
+                <span class="method-start">7933 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">prepareDevice</span>
+                <span class="method-start">8046 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">nameDisconnectedTest</span>
+                <span class="method-start">8127 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">prepareDevice</span>
+                <span class="method-start">8215 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">stateConnectedTest</span>
+                <span class="method-start">8311 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">prepareDevice</span>
+                <span class="method-start">8367 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">stateDisconnectedTest</span>
+                <span class="method-start">8451 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
