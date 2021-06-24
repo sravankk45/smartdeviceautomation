@@ -1,4 +1,4 @@
-# smart device automation 
+# Smart Device Automation 
 
 
 ## Automation test regression suite for smart device rest api
